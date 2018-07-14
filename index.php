@@ -1,32 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="font.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    <div class="wrapper">
-        <header>
-            <nav>
-                <div class="nav-block-1">
-                    <a href="#" class="main-logo">SH</a>
-                    <a href="#">Женщинам</a>
-                    <a href="#">Мужчинам</a>
-                    <a href="#">Детям</a>
-                    <a href="#">Новинки</a>
-                    <a href="#">О нас</a>
-                </div>
-                <div class="nav-block-2">
-                    <a href="#" class="login">Войти</a>
-                    <a href="#" class="basket">Корзина(0)</a>
-                </div>
-            </nav>
-        </header>
+
+<?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
         <section class="main">
             <h1>НОВЫЕ ПОСТУПЛЕНИЯ ВЕСНЫ</h1>
             <p>Мы подготовили для Вас лучшие новинки этого сезона</p>
@@ -101,38 +74,5 @@
                 <span class="wrong">Некорректный e-mail. Попробуйте еще раз.</span>
             </form>
         </section>
-        <footer>
-            <div class="first-footer-block block">
-                <h3>КОЛЛЕКЦИИ</h3>
-                <div class="box">
-                    <div class="info">
-                        <a href="#">Женщинам(865)</a>
-                        <a href="#">Мужчинам(641)</a>
-                        <a href="#">Детям(2151)</a>
-                        <a href="#">Новинки(62)</a>
-                    </div>
-                </div>
-            </div>
-            <div class="second-footer-block block">
-                <h3>МАГАЗИН</h3>
-                <div class="box">
-                    <div class="info">
-                        <a href="#">О нас</a>
-                        <a href="#">Доставка</a>
-                        <a href="#">Работай с нами</a>
-                        <a href="#">Контакты</a>
-                    </div>
-                </div>
-            </div>
-            <div class="third-footer-block block">
-                <h3>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
-                <p>Сайт разработан в inordic.ru</p>
-                <p class="more-margin">2018 &copy; Все права защищены</p>
-                <a href="#" class="twi"></a>
-                <a href="#" class="fb"></a>
-                <a href="#" class="inst"></a>
-            </div>
-        </footer>
-    </div>
-</body>
-</html>
+        <?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>
+        
