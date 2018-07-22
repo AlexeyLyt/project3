@@ -1,0 +1,10 @@
+//for details.php
+SELECT c.name
+     , p.name
+     , sc.name
+     , i.amount
+     , p.artikul
+FROM in_stock i
+LEFT JOIN products p ON p.id = i.product_id 
+LEFT JOIN size_categories sc ON sc.id = i.size_id 
+LEFT JOIN categories c ON c.id = p.category_id
